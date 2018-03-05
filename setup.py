@@ -17,7 +17,7 @@ Source code is hosted in `GitHub <https://github.com/aolefira/flask-clickhouse>`
 from setuptools import setup, find_packages
 
 requires = [
-    'clickhouse-driver==0.0.9',
+    'clickhouse-driver>=0.0.9',
 ]
 
 setup(
