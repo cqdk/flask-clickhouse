@@ -66,3 +66,6 @@ class ClickHouse(object):
 
     def __getattr__(self, name):
         return getattr(self.client, name)
+
+    def __str__(self):
+        return f'<ClickHouse: {self.host}>'

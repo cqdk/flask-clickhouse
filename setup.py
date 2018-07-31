@@ -23,7 +23,7 @@ requires = [
 setup(
     name='Flask-ClickHouse',
     description='ClickHouse support for Flask applications',
-    version='1.0.0',
+    version='1.0.1',
     url='https://github.com/aolefira/flask-clickhouse',
     license='GNU General Public License v3.0',
     author='Andrew Olefira',
